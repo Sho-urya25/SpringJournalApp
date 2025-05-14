@@ -1,0 +1,83 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+### Compiled class files ###
+target/
+build/
+
+### Maven ###
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+**/build/
+**/out/
+
+### Logs ###
+*.log
+logs/
+*.out
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### VS Code ###
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Test Reports ###
+test-output/
+surefire-reports/
+jacoco.exec
+
+### Environment Files ###
+.env
+.env.local
+*.env
+
+### Spring Boot ###
+.spring-boot-devtools.properties
+.spring-boot-loader.jar
+application.properties
+
+### Other ###
+HELP.md
